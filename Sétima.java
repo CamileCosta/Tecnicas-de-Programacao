@@ -1,7 +1,9 @@
 import java.util.Scanner;
 
 public class Sétima {
-    Scanner scanner = new Scanner(System.in);
+    public static void main(String[] args){
+
+       Scanner scanner = new Scanner(System.in);
 
     System.out.@println("Digite a idade de uma pessoa:");
     int idade = scanner.nextInt();
@@ -16,5 +18,6 @@ public class Sétima {
     } else{
         System.out.println("A pessoa é idosa.");
     }
-
+} 
 }
+
